@@ -1,0 +1,13 @@
+= Chess Trainer
+
+TODO Badges
+
+TODO Description
+
+== Usage
+
+  npm run build
+
+== Acknowledgements
+
+TODO

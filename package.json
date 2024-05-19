@@ -1,0 +1,25 @@
+{
+    "name": "Nyx - AI Chess Trainer",
+    "version": "0.1.0",
+    "description": "TODO",
+    "main": "app.js",
+    "scripts": {
+        "build": "esbuild src/index.tsx --bundle --outfile=build/app.js --loader:.ts=ts --loader:.tsx=tsx",
+        "serve": "http-server . -c-1",
+        "watch": "esbuild src/index.tsx --bundle --outfile=build/app.js --loader:.ts=ts --loader:.tsx=tsx --watch"
+    },
+    "keywords": [],
+    "author": "Markus Lampe",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/react": "^18.3.2",
+        "esbuild": "^0.21.3",
+        "http-server": "^14.1.1",
+        "typescript": "^5.4.5"
+    },
+        "dependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "styled-components": "^6.1.11"
+    }
+}
