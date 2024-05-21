@@ -1,6 +1,9 @@
-import { createGlobalStyle, styled } from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 
 const LookAndFeel = createGlobalStyle`
+    @import url('/fonts/noto-sans/noto-sans-regular.ttf');
+    @import url('/fonts/poetsen-one/poetsen-one-regular.ttf');
+
     html, body {
         background: black;
         color: white;
@@ -14,38 +17,7 @@ const LookAndFeel = createGlobalStyle`
     }
 `
 
-const Page = styled.div`
-    height: 100%;
-    overflow: hidden;
-    transition: all .5s;
-
-    &.hidden {
-        height: 0;
-    }
-`
-
-const Title = styled.h1`
-    font-size: 7vw;
-    margin: 20vw 0;
-    text-align: center;
-`
-
-const Button = styled.div`
-    border: 1px solid white;
-    cursor: pointer;
-    font-size: 5vw;
-    margin: 16px;
-    padding: 5px;
-    text-align: center;
-
-    &:active {
-        background: silver;
-    }
-`
 
 export {
     LookAndFeel,
-    Page,
-    Title,
-    Button,
 }

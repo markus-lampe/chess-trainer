@@ -1,4 +1,4 @@
-= Chess Trainer
+= Mindful Moves - AI Chess Trainer
 
 TODO Badges
 
